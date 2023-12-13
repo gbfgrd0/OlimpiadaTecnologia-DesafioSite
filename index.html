@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <script  type="text/javascript" src="https://codesandbox.io/public/sse-hooks/sse-hooks.f742b80f43c5a2e0e619b0d97b5886cd.js"></script>
+    <script  type="text/javascript" src="https://codesandbox.io/static/js/banner.0b5d84a2b.js"></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/%22%3E
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+    <title>Site OBT</title>
+</head>
+
+<body>
+    <img id="imagem-transicao" src="./components/imagens/fundo.jpg" alt="transição" >
+    <header>
+        <div id="logo"></div>
+        <div id="pesquisar">
+            <img id="icon-pesquisar" src="./components/imagens/search.png" alt="">
+            <input type="text" placeholder="Pesquisar" id="myInput" onkeyup="search()">
+        </div>
+    </header>
+    <!-- CONTAINER -->
+    <div class="container" id="blocos">
+
+    </div>
+
+    <footer>
+    </footer>
+
+
+    <div class="detalhes" id="project"> <!--Mãe-->
+        <img id="espaço_img"></img>
+        <div id="conteudo"> 
+            <h1 id="title">Materiais resistentes à radiação espacial</h1>
+
+            <img id="bandeira" class="bandeiras">
+
+            <hr>
+            <h3>Descrição</h3>
+            <br>
+            <p id="text"></p>
+            <hr>
+            <h1 id="textoPasso" style="color:white"></h1>
+            <br>
+
+            <div id="passos"><h1>oioi</h1></div>
+
+            <button id="voltar" onClick="window.location.reload()">Voltar para a janela principal</button>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+    <script src="./search.js"></script>
+  <script crossorigin type="text/javascript" src="https://codesandbox.io/static/js/watermark-button.f4f9aed52.js"></script>
+  </body>
+
+</html>
